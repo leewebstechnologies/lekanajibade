@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <>
       <nav className="navbar">
@@ -13,8 +14,12 @@ const Header = () => {
         </div>
         <div className="navbarRight">
           <ul className="navbarList">
-            <li className="navbarListItem">Projects</li>
-            <li className="navbarListItem">Contact Me</li>
+            <li className="navbarListItem">
+              <Link className="link">Projects</Link>
+            </li>
+            <li className="navbarListItem">
+              <Link className="link">Contact Me</Link>
+            </li>
           </ul>
         </div>
       </nav>
@@ -22,4 +27,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
