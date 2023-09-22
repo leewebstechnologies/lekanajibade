@@ -6,12 +6,33 @@
 
 .circle {
     border-radius: 50%;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    width: 200px;
+
 }
 
+.homeImage {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .homeImage {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
 .intro {
   color: #fff;
   display: flex;
   justify-content: center;
   top: 20rem;
+  margin-top: 1rem;
 }

@@ -6,7 +6,15 @@ const Projects = () => {
   return (
     <>
       <Navbar />
-      <div>Projects</div>
+      <section className="section">
+        <h1 className="title">Featured Projects</h1>
+       <div className="card">
+        <img className="cardImage" src="" alt="" />
+        <div className="container">
+          
+        </div>
+       </div>
+      </section>
       <Footer />
     </>
   );
