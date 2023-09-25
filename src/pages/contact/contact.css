@@ -1,0 +1,88 @@
+.contact {
+  padding: 20px;
+  background-color: #512da8;
+  width: 100%;
+  height: 60rem;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 5rem;
+  margin-left: 32rem;
+}
+
+.contact form {
+  margin: -3% 25%;
+  padding: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.contact form label {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.contact form input {
+  width: 80%;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #636466;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.select {
+  width: 80%;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  color: #fff;
+}
+.btn {
+  width: 80%;
+  padding: 10px;
+  background-color: #805ad5;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+textarea {
+  width: 80%;
+  background: transparent;
+  border-radius: 5px;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .c-h2 {
+    margin-left: 7rem;
+    margin-bottom: -50px;
+  }
+  form {
+    width: 100%;
+    margin-left: 7rem;
+  }
+  input {
+    margin-left: -3rem;
+  }
+  .select {
+    margin-left: -3rem;
+  }
+  textarea {
+    margin-left: -3rem;
+  }
+  .btn {
+    margin-left: -3rem;
+  }
+}

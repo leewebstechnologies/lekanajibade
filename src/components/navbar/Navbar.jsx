@@ -6,7 +6,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-      <nav className="navbar container">
+      <nav className="navbar">
         <div className="navbarLeft">
           <i class="navbarIcon fa-solid fa-envelope"></i>
           <i class="navbarIcon fa-brands fa-github"></i>
