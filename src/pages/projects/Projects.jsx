@@ -25,7 +25,7 @@ const Projects = () => {
             <img className="cardImage" src="./assets/4.png" alt="" />
             <div className="container">
               <h4>
-                <b>MayBee</b>
+                <b>MayBee Online Stores</b>
               </h4>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
               <a className="link" href="https://maybee-stores.netlify.app">
@@ -55,6 +55,46 @@ const Projects = () => {
               <a className="link" href="https://facebook-clone-ui.netlify.app">
                 See more <span>&rarr;</span>
               </a>
+            </div>
+          </div>
+          <div className="card">
+            <img className="cardImage" src="./assets/7.jpg" alt="" />
+            <div className="container">
+              <h4>
+                <b>Origami Story Book</b>
+              </h4>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div className="card">
+            <img
+              className="cardImage"
+              src="./assets/8.png"
+              alt=""
+            />
+            <div className="container">
+              <h4>
+                <b>SmartBuy Banner Design</b>
+              </h4>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div className="card">
+            <img className="cardImage" src="./assets/10.png" alt="" />
+            <div className="container">
+              <h4>
+                <b>Gorgonia Family Barber</b>
+              </h4>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div className="card">
+            <img className="cardImage" src="./assets/12.png" alt="" />
+            <div className="container">
+              <h4>
+                <b>SmartBuy ID Card Design</b>
+              </h4>
+              <p>Graphic Design</p>
             </div>
           </div>
         </div>
