@@ -8,11 +8,21 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbarLeft">
-          <i class="navbarIcon fa-solid fa-envelope"></i>
-          <i class="navbarIcon fa-brands fa-github"></i>
-          <i class="navbarIcon fa-brands fa-linkedin"></i>
-          <i class="navbarIcon fa-brands fa-whatsapp"></i>
-          <i class="navbarIcon fa-brands fa-stack-overflow"></i>
+          <a href="mailto: aliuajibade317@gmail.com">
+            <i class="navbarIcon fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/leewebstechnologies">
+            <i class="navbarIcon fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/aliu-ajibade-a43210139/">
+            <i class="navbarIcon fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://wa.me/+2348084838268">
+            <i class="navbarIcon fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://stackoverflow.com/users/16582853/aliu-ajibade">
+            <i class="navbarIcon fa-brands fa-stack-overflow"></i>
+          </a>
         </div>
         <div className="navbarRight">
           <div className={`nav__menu ${showMenu ? "show-menu" : ""}`}>

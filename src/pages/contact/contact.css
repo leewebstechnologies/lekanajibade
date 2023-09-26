@@ -31,7 +31,7 @@ h2 {
   border-radius: 5px;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
-  color: #636466;
+  color: #fff;
   padding: 10px;
   margin-bottom: 10px;
   display: block;
@@ -78,6 +78,7 @@ textarea {
   }
   .select {
     margin-left: -3rem;
+    background-color: #000;
   }
   textarea {
     margin-left: -3rem;
@@ -85,6 +86,4 @@ textarea {
   .btn {
     margin-left: -3rem;
   }
-
- 
 }
